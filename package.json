@@ -1,0 +1,25 @@
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+    res.render('index', { title: 'Tamkung University' });
+});
+
+module.exports = router;
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+},
+"eslintConfig": {
+    "extends": "react-app"
+},
+"browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+]
+}
